@@ -63,16 +63,9 @@ class apache {
 	
 	package {'mysql-server':
 		ensure => 'installed',
+		root => ['root_password' => 'auto'],
 		allowcdrom => "true",
 
-	}
-
-	$mysqlpw = "quest"
-
-	exec { 'set-mysql-password':
-		path => ["/bin", "/usr/bin"],
-		command => "mysqladmin -uroot password $mysqlpw",
-		require => Package["mysql-server"],
 	}
 	
 	service { 'mysql':
