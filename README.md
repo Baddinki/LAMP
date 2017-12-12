@@ -7,7 +7,7 @@ Ensimmäinen askel
 
 Luon seuraavat tiedostot
 
-Site.pp on tiedosto, jota en tällä hetkellä tarvitse moduulin asentamiseen, mutta, jos on useampia moduuleita niin ne kaikki pystyy asentamaan site.pp:n kautta. Tällä hetkellä siellä lukee vain<em><strong> include apache eli nykyinen moduulini.
+Site.pp on tiedosto, jota en tällä hetkellä tarvitse moduulin asentamiseen, mutta, jos on useampia moduuleita niin ne kaikki pystyy asentamaan site.pp:n kautta. Tällä hetkellä siellä lukee vain include apache eli nykyinen moduulini.
 
 init.pp
 
